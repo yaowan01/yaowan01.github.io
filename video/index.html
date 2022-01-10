@@ -22,7 +22,7 @@
 
   
 
-  <title>Termux×Hexo×Github搭建免费个人网站 | 溶解的药丸</title>
+  <title>视频 | 溶解的药丸</title>
 
   
 
@@ -43,9 +43,9 @@
   <div class="root-container">
     
 <!-- header container -->
-<header class="header-container post">
+<header class="header-container">
   
-    <div class="post-image" style="background-image: url(https://cdn.jsdelivr.net/gh/yaowan01/PicGo/80bc2d17e4624969b592e9a60d2c7472.jpg)"></div>
+    <div class="post-image" style="background-image: url(https://cdn.jsdelivr.net/gh/yaowan01/PicGo/77a5cdb66c9644cdbe6db3753037b5f6.jpg)"></div>
   
 
   <!-- navbar -->
@@ -97,164 +97,38 @@
 
   
   
-    <div class="header-content">
-      <div class="post-text layout-block">
-        <div class="layout-margin">
-          <h1 class="title-wrap">Termux×Hexo×Github搭建免费个人网站</h1>
-          <h2 class="title-sub-wrap">
-            <strong>溶解的药丸</strong>
-            <span>发布于</span>
-            <time  class="article-date" datetime="2022-01-10T00:35:29.000Z" itemprop="datePublished">2022-01-10</time>
-          </h2>
-          <ul class="wrap-list dark">
-  
-</ul>
-          <ul class="wrap-list dark">
-  
-</ul>
-        </div>
-      </div>
-    </div>
-  
 
   
+  
+    <div class="header-content">
+      <div class="post-text layout-block layout-padding">
+        <h1 class="title-wrap">视频</h1>
+        
+      </div>
+    </div>
   
   
 </header>
 
-    <!-- 文章 -->
+    <!-- 分页(其他自定义页面) -->
 
-<!-- 文章内容 -->
+<!-- 自定义页面 -->
+
 <div class="body-container">
   <article class="content-container layout-block post-container">
     <div class="article-info">
       
-      
-      
-      
       <section class="article-entry markdown-body layout-margin content-padding--large soft-size--large soft-style--box">
-        <h1 id="Termux×Hexo×Github搭建个人网站"><a href="#Termux×Hexo×Github搭建个人网站" class="headerlink" title="Termux×Hexo×Github搭建个人网站"></a>Termux×Hexo×Github搭建个人网站</h1><p>简介:我搭建了一个个人网站，但是搭建过程十分曲折，翻阅了很多教程，大多教程不完整，而且还有错误的指令，以及已经更改了的方式，因此，我写下了这篇教程，帮助大家更方便的搭建个人网站</p>
-<p><em>注:1. 推荐使用Chrome浏览器，自带翻译网页功能，可以更方便的理解教程<br>2. 只有出现<code>~ $</code>才表示完成，可以进行下一步<br><img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220110_021517.jpg" alt="无"><br>3. 用户名为Github的用户名，邮箱为你注册Github使用的邮箱，文件名为自定义</em></p>
-<h2 id="Github"><a href="#Github" class="headerlink" title="Github"></a>Github</h2><hr>
-<ol>
-<li>注册账号<ul>
-<li>打开<a target="_blank" rel="noopener" href="https://github.com/">Github</a></li>
-<li>按照提示即可</li>
-</ul>
-</li>
-<li>新建仓库<ul>
-<li>回到主页</li>
-<li>选择 Start a project  <img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220110_012332.JPG" alt="无"></li>
-<li>填写仓库名，仓库名为<strong>用户名.github.io</strong><br><img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220110_013427.JPG" alt="无"></li>
-<li>选择Create repository<br><img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220110_012307.JPG" alt="无"></li>
-<li>完成</li>
-</ul>
-</li>
-</ol>
-<h2 id="Termux"><a href="#Termux" class="headerlink" title="Termux"></a>Termux</h2><hr>
-<h4 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h4><ol>
-<li>换源<ul>
-<li>输入<code>termux-change-repo</code><br><img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220109_192938.jpg" alt="无"></li>
-<li>选择<strong>Main repository</strong><br><img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220109_192654.jpg" alt="无"></li>
-<li>选择<strong>OK</strong></li>
-<li>选择<strong>Mirrors by BFSU</strong><br><img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220109_192654.jpg" alt="无"></li>
-<li>选择<strong>OK</strong></li>
-<li>输入<strong>Y</strong><br><img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220110_014918.jpg" alt="无"></li>
-<li>输入<strong>Y</strong><br><img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220110_014835.jpg" alt="无"></li>
-<li>完成</li>
-</ul>
-</li>
-<li>更新源<ul>
-<li>输入<code>pkg update</code><br><img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220110_020105.jpg" alt="无"></li>
-</ul>
-</li>
-<li>安装<ul>
-<li>输入<code>pkg install vim</code><br><img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220110_020132.jpg" alt="无"></li>
-<li>选择<strong>Y</strong><br><img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220110_020418.jpg" alt="无"></li>
-<li>输入<code>pkg install nodejs</code><br><img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220110_020542.jpg" alt="无"></li>
-<li>选择<strong>Y</strong><br><img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220110_020606.jpg" alt="无"></li>
-<li>输入<code>pkg install git</code><br><img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220110_020630.jpg" alt="无"></li>
-<li>输入<code>pkg install openssh</code><br><img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220110_020940.jpg" alt="无"></li>
-<li>选择<strong>Y</strong><br><img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220110_020606.jpg" alt="无"></li>
-<li>完成</li>
-</ul>
-</li>
-<li>生成网站<ul>
-<li>输入 hexo init 文件名<br><img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220110_072959.jpg" alt="无"></li>
-<li>输入cd 文件名<br><img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220110_072938.jpg" alt="无"></li>
-</ul>
-</li>
-<li>连接<ul>
-<li>输入<code>npm install hexo-deployer-git --save</code></li>
-<li>输入vim _config.yml，更改最后内内容<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">    type: git</span><br><span class="line">    repo: git@github.com:用户名/用户名.github.io.git</span><br><span class="line">    branch: main</span><br></pre></td></tr></table></figure></li>
-</ul>
-</li>
-</ol>
-<p><img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220110_072537.jpg" alt="无"><br><img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220110_072558.jpg" alt="无"></p>
-<h3 id="上传文件"><a href="#上传文件" class="headerlink" title="上传文件"></a>上传文件</h3><ol>
-<li>生成秘钥<ul>
-<li>输入<code>git config --global user.name &quot;用户名&quot;</code><br><img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220110_074049.jpg" alt="无"></li>
-<li>输入<code>git config --global user.email &quot;邮箱&quot;</code><br><img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220110_074225.jpg" alt="无"></li>
-<li>输入<code>ssh-keygen -t rsa -C &quot;邮箱&quot;</code><br><img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220110_074422.jpg" alt="无"></li>
-<li>按确认跳过<br><img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220110_074316.jpg" alt="无"></li>
-<li>按确认跳过<br><img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220110_074359.jpg" alt="无"></li>
-<li>按确认跳过<br><img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220110_074359.jpg" alt="无"></li>
-<li>输入<code>cat ~/.ssh/id_rsa.pub</code></li>
-<li>把获得的字符串保存下来</li>
-</ul>
-</li>
-<li>上传Github<ul>
-<li>打开<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220110_081554.jpg">Github SSH</a></li>
-<li>选择<strong>New SSH Key</strong></li>
-<li>把刚才获得的字符串填入Key，Title任意填写<br><img src="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/IMG_20220110_081611.jpg" alt="无"></li>
-<li>点击<strong>Add SSH Key</strong></li>
-<li>回到Termux</li>
-<li>输入<code>cd</code></li>
-<li>输入<code>cd 文件名</code></li>
-<li>输入<code>hexo g -d</code></li>
-<li>完成<h4 id="完成-o-〃’▽’〃-o"><a href="#完成-o-〃’▽’〃-o" class="headerlink" title="完成~o(〃’▽’〃)o"></a>完成~o(〃’▽’〃)o</h4>这时在浏览器打开<strong>用户名.github.io</strong>即可看到你的网站已经制作好了</li>
-</ul>
-</li>
-</ol>
+        <h2 id="声之形"><a href="#声之形" class="headerlink" title="声之形"></a>声之形</h2><div class="dplayer-box" data-url='https://1251316161.vod2.myqcloud.com/007a649dvodcq1251316161/55bd5e643701925923902549036/LUm3OSb6xd0A.mp4' ></div>
+<hr>
 
       </section>
 
       
       
-        <nav class="article-nav">
-          
-          
-            <div class="article-nav-item layout-padding">
-  <article class="card-container article-nav-card content-padding--primary soft-size--large soft-style--box">
-    
-      <div class="card-cover" background-image-lazy data-img="https://cdn.jsdelivr.net/gh/yaowan01/PicGo/110248.png"></div>
-    
-    <div class="card-text">
+
       
-        <a href="/posts/1001/" itemprop="url">
-          <h2 class="card-text--title text-ellipsis">Hello World</h2>
-        </a>
       
-      <div class="card-text--row">Older</div>
-    </div>
-  </article>
-</div>
-          
-        </nav>
-      
-
-      <section class="page-message-container layout-padding">
-        
-
-
-  
-  
-
-  
-  
-
-
-      </section>
     </div>
     <div class="widget-info">
       <section class="widget-author widget-item layout-margin content-padding--primary soft-size--large soft-style--box">
@@ -289,8 +163,6 @@
     </div>
   </div>
 </section>
-
-      
 
       
 <section class="widet-notice widget-item layout-margin content-padding--primary soft-size--large soft-style--box">
@@ -336,6 +208,7 @@
     </div>
   </article>
 </div>
+
 
     <!-- footer container -->
 <footer id="footer" class="footer">
@@ -392,6 +265,41 @@
 
 
 <!-- dplayer -->
+
+
+<!-- dplayer 视频 start -->
+<script type="text/javascript" src="https://unpkg.com/hls.js@1.0.1/dist/hls.js"></script>
+<script type="text/javascript" src="https://unpkg.com/dplayer@1.25.1/dist/DPlayer.min.js"></script>
+<script type="text/javascript">
+  const dplayer = document.querySelectorAll(".dplayer-box");
+  dplayer && initDPlayer(dplayer);
+  function initDPlayer(els) {
+    let elsArr = Array.from(els);
+    elsArr.forEach(el => {
+      let url = el.dataset.url;
+      let pic = el.dataset.pic;
+      let subtitle = el.dataset.subtitle;
+
+      let options = {
+        container: el,
+        video: { url: url, pic: pic },
+        theme: "#b7daff",
+        autoplay: false,
+        loop: false,
+        mutex: true,
+      }
+
+      if (subtitle) {
+        options.subtitle = {
+          url: el.dataset.subtitle,
+        }
+      }
+      new DPlayer(options);
+    });
+  }
+</script>
+<!-- dplayer 视频 end -->
+
 
 
 
