@@ -119,7 +119,7 @@
     <div class="article-info">
       
       <section class="article-entry markdown-body layout-margin content-padding--large soft-size--large soft-style--box">
-        <h2 id="声之形"><a href="#声之形" class="headerlink" title="声之形"></a>声之形</h2><div class="dplayer-box" data-url='https://1251316161.vod2.myqcloud.com/007a649dvodcq1251316161/55bd5e643701925923902549036/LUm3OSb6xd0A.mp4' ></div>
+        <h2 id="声之形"><a href="#声之形" class="headerlink" title="声之形"></a>声之形</h2><script src="https://cdn.jsdelivr.net/npm/dplayer@1/dist/DPlayer.min.js"></script><div id="mmedia-ARwlYNJLRNCsBkUP"></div><script> var ARwlYNJLRNCsBkUP_options = JSON.parse('{\"video\":{\"url\":\"https://1251316161.vod2.myqcloud.com/007a649dvodcq1251316161/55bd5e643701925923902549036/LUm3OSb6xd0A.mp4\"}}'); ARwlYNJLRNCsBkUP_options.container = document.getElementById("mmedia-ARwlYNJLRNCsBkUP"); const dp_ARwlYNJLRNCsBkUP = new DPlayer(ARwlYNJLRNCsBkUP_options); </script>
 <hr>
 
       </section>
@@ -265,41 +265,6 @@
 
 
 <!-- dplayer -->
-
-
-<!-- dplayer 视频 start -->
-<script type="text/javascript" src="https://unpkg.com/hls.js@1.0.1/dist/hls.js"></script>
-<script type="text/javascript" src="https://unpkg.com/dplayer@1.25.1/dist/DPlayer.min.js"></script>
-<script type="text/javascript">
-  const dplayer = document.querySelectorAll(".dplayer-box");
-  dplayer && initDPlayer(dplayer);
-  function initDPlayer(els) {
-    let elsArr = Array.from(els);
-    elsArr.forEach(el => {
-      let url = el.dataset.url;
-      let pic = el.dataset.pic;
-      let subtitle = el.dataset.subtitle;
-
-      let options = {
-        container: el,
-        video: { url: url, pic: pic },
-        theme: "#b7daff",
-        autoplay: false,
-        loop: false,
-        mutex: true,
-      }
-
-      if (subtitle) {
-        options.subtitle = {
-          url: el.dataset.subtitle,
-        }
-      }
-      new DPlayer(options);
-    });
-  }
-</script>
-<!-- dplayer 视频 end -->
-
 
 
 
